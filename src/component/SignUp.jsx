@@ -23,7 +23,7 @@ const SignUp = () => {
   
       await setDoc(doc(db, "users", user.uid), {
         email: user.email,
-        name: name, // lower-case field
+        name: name, 
       });
   
       console.log("User registered successfully");

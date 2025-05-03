@@ -1,6 +1,5 @@
 import React from "react";
 
-// Sample product data (you can replace this with props or API data)
 const products = [
   {
     id: 1,

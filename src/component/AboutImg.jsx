@@ -40,7 +40,6 @@ const AboutImg = () => {
   return (
     <div className="flex justify-center items-center py-10">
       <div className="grid grid-cols-3 gap-8 max-w-7xl w-full px-4">
-        {/* Left Features */}
         <div className="flex flex-col justify-center space-y-8">
           {leftFeatures.map((feature, index) => (
             <div key={index} className="flex items-start space-x-4">
@@ -53,7 +52,6 @@ const AboutImg = () => {
           ))}
         </div>
 
-        {/* Center Image */}
         <div className="flex justify-center items-center">
           <img
             src="./bottle2.png" 
@@ -62,7 +60,6 @@ const AboutImg = () => {
           />
         </div>
 
-        {/* Right Features */}
         <div className="flex flex-col justify-center space-y-8">
           {rightFeatures.map((feature, index) => (
             <div key={index} className="flex items-start space-x-4">

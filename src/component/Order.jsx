@@ -46,7 +46,7 @@ const Order = () => {
         uid: user.uid,
         email: user.email,
         ...formData,
-        deliveryStatus: "Pending", // Added
+        deliveryStatus: "Pending",
 
         timestamp: serverTimestamp(),
       });

@@ -41,7 +41,6 @@ toast.success(error.message,{
           <h1 className="text-3xl font-bold text-blue-700 mt-2">Pure Aqua Login</h1>
         </div>
 
-        {/* Login Form */}
         <form className="space-y-5" onSubmit={handleSubmit}>
           <div>
             <label className="block text-gray-700 font-medium mb-1">Email</label>

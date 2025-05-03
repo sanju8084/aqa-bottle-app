@@ -5,12 +5,10 @@ const About = () => {
   return (
     <section className="bg-blue-50 py-10 px-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        {/* Left Side: Features Component */}
         <div className="w-full md:w-1/2">
           <AboutImg />
         </div>
 
-        {/* Right Side: Text Content */}
         <div className="w-full md:w-1/2  md:text-left">
           <h2 className="text-4xl font-bold text-blue-700 mb-4">
             We Provide Quality water Delivery

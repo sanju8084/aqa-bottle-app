@@ -1,15 +1,14 @@
 import React from "react";
-import { Mail, Phone, MapPin } from "lucide-react"; // using lucide icons
+import { Mail, Phone, MapPin } from "lucide-react"; 
 
 const Contact = () => {
   return (
     <div className="bg-blue-50 py-16 px-4 sm:px-6 lg:px-8 min-h-screen">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 bg-white rounded-2xl shadow-xl overflow-hidden">
-        {/* Left: Info with Background Image */}
         <div
           className="bg-cover bg-center text-black flex flex-col justify-center p-10 space-y-6"
           style={{
-            backgroundImage: "url('./contactImg.png')", // Replace with your background image
+            backgroundImage: "url('./contactImg.png')", 
           }}
         >
           <h2 className="text-3xl font-bold">Get in Touch</h2>
@@ -33,7 +32,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right: Contact Form */}
         <div className="p-10">
           <form className="space-y-6">
             <div>

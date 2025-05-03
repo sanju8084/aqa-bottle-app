@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Order from "./Order"; // import Order component
+import Order from "./Order"; 
 import Product from "./Product";
 import About from "./About";
 import Contact from "./Contact";
@@ -19,7 +19,6 @@ const Home = () => {
         }}
       >
         <div className=" w-full h-full flex flex-col md:flex-row items-center justify-center px-6 md:px-10 py-10 gap-6 md:gap-10">
-          {/* Image Section */}
           <div className="w-full md:w-auto flex justify-center order-1 md:order-2">
             <img
               src="./bg_bottle.png"
@@ -28,7 +27,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Text Section */}
           <div className="text-white max-w-xl text-center md:text-left order-2 md:order-1">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-3">
               Stay Hydrated with Pure Aqua

@@ -7,7 +7,6 @@ import Contact from './component/Contact';
 import About from './component/About';
 import Login from './component/Login';
 import SignUp from './component/SignUp';
-import Profile from './component/profile';
 import OrderHis from './component/OrderHis';
 import Admin from './component/Admin';
 const App = () => {
@@ -40,10 +39,6 @@ const App = () => {
         {
           path:"/signUp",
           element: <SignUp />
-        },
-        {
-          path:"/profile",
-          element: <Profile />
         },
         {
           path:"/orderHis",
